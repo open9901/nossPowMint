@@ -100,7 +100,7 @@ async def run_script():
             e_copy = Event(
                 content="{\"p\":\"nrc-20\",\"op\":\"mint\",\"tick\":\"noss\",\"amt\":\"10\"}",
                 kind=1,
-                pubkey="88709d7bbcbaa1a82b4a5c01a692cabdac450fbab67a386e37601fbe7daf7382",  # 进入https://nostrcheck.me/converter/转换，也就说把你nostr地址转换成16进制  我地址转换出来的是88709d7bbcbaa1a82b4a5c01a692cabdac450fbab67a386e37601fbe7daf7382
+                pubkey="64c8c82195bd811307b79d7b995302238f5097d84daf05e4242ddfab8e3f03ee",  # 进入https://nostrcheck.me/converter/转换，也就说把你nostr地址转换成16进制  我地址转换出来的是88709d7bbcbaa1a82b4a5c01a692cabdac450fbab67a386e37601fbe7daf7382
                 tags=[
                     ["p", "9be107b0d7218c67b4954ee3e6bd9e4dba06ef937a93f684e42f730a0c3d053c"],
                     ["e", "51ed7939a984edee863bfbb2e66fdc80436b000a8ddca442d83e6a2bf1636a95",
