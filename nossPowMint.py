@@ -149,7 +149,7 @@ async def run_script():
                 print("")
 
             #查询余额
-            responses = requests.get("https://api-worker.noscription.org/indexer/balance?npub="+"npub13pcf67auh2s6s262tsq6dyk2hkky2ra6kearsm3hvq0muld0wwpqzstrgk")  # npub13pcf67auh2s6s262tsq6dyk2hkky2ra6kearsm3hvq0muld0wwpqzstrgk 为你的nostr地址
+            responses = requests.get("https://api-worker.noscription.org/indexer/balance?npub="+"npub1vnyvsgv4hkq3xpahn4aej5czyw84p97cfkhstepy9h06hr3lq0hquuz7d5")  # npub13pcf67auh2s6s262tsq6dyk2hkky2ra6kearsm3hvq0muld0wwpqzstrgk 为你的nostr地址
             data = responses.json()
             old = read()
             if data !=[]:
